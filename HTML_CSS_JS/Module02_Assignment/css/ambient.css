@@ -17,14 +17,22 @@ h1	{
 
 section
 	{
-		float: right;
-		border-width: thin;
+		/*float: right;*/
+		width: 80px;
+
+		border-width: 1px;
 		border-style: solid;
+
 		padding: 3px;
 		margin: 0;
+
+		position: absolute;
+		right: 5px;
 	}
 p
 	{
+		margin: 0;
+		margin-top: 30px;
 		padding: 10px;
 		clear: both;
 	}
@@ -34,6 +42,7 @@ p
 		width: 100%;
 		padding: 5px;
 		background-color:#FFFFFF;
+		position: relative;
 	}
 
 .panel
@@ -47,29 +56,76 @@ p
 		padding: 5px;
 
 		height: 200px;
+
+		position: relative;
 	}
 
 .subPanel
 	{
-		border-width: medium;
+		border-width: 1px;
 		border-style: solid;
 		border-color: black;
 
 		height: 100%;
 
-		overflow: auto;
+		/*overflow: auto;*/
 	}
 
 #sec
 	{
 		clear: both;
-		float: none;
+		/*float: none;*/
 		border-width: unset;
 		border-style: none;
 		padding: unset;
 		margin: 0;
+		position: relative;
 	}
 
+.sec1
+	{
+		background-color: #FF9966;
+	}
+
+.sec2
+	{
+		background-color: #99CC00;
+	}
+
+.sec3
+	{
+		background-color: #006699;
+	}
+
+.psec1
+	{
+		padding: 0px;
+		margin: 0px;
+	}
+.psec2
+	{
+		padding: 0px;
+		margin: 0px;
+	}
+.psec3
+	{
+		padding: 0px;
+		margin: 0px;
+		color:  #FFFFFF;
+	}
+
+.pandiv1
+	{
+		background-color: #FFEBCC;
+	}
+.pandiv2
+	{
+		background-color: #D9F2D9;
+	}
+.pandiv3
+	{
+		background-color: #CCEEFF;
+	}
 
 /*LARGE DEVICES*/
 @media (min-width: 992px)
