@@ -1,0 +1,287 @@
+body
+    {
+        font-size: 16px;
+        color: #FFFFFF;
+        background-color: #61122F;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+div > h2
+    {
+        font-size: 200%;
+        font-weight: bolder;
+        margin-bottom: 30px;
+    }
+
+section > div
+    {
+        background-color: gray;
+    }
+
+section > div > span
+    {
+        font-size: 150%;
+        font-weight: bold;
+        /*border-style: double;
+        border-width: thick;
+        border-color: #FFCC66;*/
+    }
+
+section > div > p
+    {
+        text-align: justify;
+        margin-top: 30px;
+    }
+
+section > div > hr
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+/*--HEADER--*/
+#header-nav
+	{
+		background-color: #F6B319;
+		border-radius: 0;
+		border: 0;
+	}
+
+.navbar-brand
+	{
+		padding-top: 25px;
+	}
+
+.navbar-brand h1
+	{
+		font-family: 'Lora', serif;
+		color: #557C3E;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #222;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75;
+	}
+
+.navbar-brand a:hover, .navbar-brand a:focus
+	{
+		text-decoration: none;
+	}
+
+.navbar p
+	{
+		color: #000000;
+		text-transform: uppercase;
+		font-size: .7em;
+		margin-top: 15px;
+	}
+
+.navbar-brand p span
+	{
+		vertical-align: middle;
+	}
+
+#nav-list
+	{
+		margin-top: 10px;
+	}
+
+#nav-list a
+	{
+		color: #951C49;
+		text-align: center;
+	}
+
+#nav-list a:hover
+	{
+		background: #E7E7E7;
+	}
+
+#nav-list a span
+	{
+		font-size: 1.8em;
+	}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+	{
+		border: 1px;
+		border-style: solid;
+		border-color: #61122F;
+	}
+
+.navbar-header button.navbar-toggle
+	{
+		clear: both;
+		margin-top: -30px;
+	}
+
+
+/*++    LARGE DEVICES    ++*/
+/*@media (min-width: 1200px)
+	{
+		.container .jumbotron
+			{
+				background: url('../images/jumbotron_1200.jpg') no-repeat;
+				height: 675px;
+			}
+	}*/
+
+/*++    MEDIUM DEVICES   ++*/
+/*@media (min-width: 992px) and (max-width: 1199px)
+	{
+		#logo-img
+			{
+				background: url('../images/restaurant-logo_medium.png') no-repeat;
+				width: 100px;
+				height: 100px;
+				margin: 5px 5px 5px 0px;
+			}
+
+		.container .jumbotron
+			{
+				background: url('../images/jumbotron_992.jpg') no-repeat;
+				height: 558px;
+			}
+	}*/
+
+/*++    SMALL DEVICES    ++*/
+/*@media (min-width: 768px) and (max-width: 991px)
+	{
+		.container .jumbotron
+			{
+				background: url('../images/jumbotron_768.jpg') no-repeat;
+				height: 432px;
+			}
+	}*/
+
+/*++ EXTRA SMALL DEVICES ++*/
+/*@media (max-width: 767px)
+	{
+		.navbar-brand
+			{
+				padding-top: 10px;
+				height: 80px;
+			}
+
+		.navbar-brand h1
+			{
+				padding-top: 10px;
+				font-size: 5vw; 1vw = 1% of viewport width
+			}
+
+		.navbar-brand p
+			{
+				font-size: .6em;
+				margin-top: 12px;
+			}
+
+		.navbar-brand p img
+			{
+				height: 20px;
+			}
+
+		#collapsable-nav a
+			{
+				font-size: 1.2em;
+			}
+
+		#collapsable-nav a span
+			{
+				font-size: 1em;
+				margin-right: 5px;
+			}
+
+		#call-btn > a
+			{
+				font-size: 1.5em;
+				display: block;
+				margin: 0px 20px;
+				padding: 10px;
+				border: 2px solid #FFFFFF;
+				background-color: #F6B319;
+				color: #951C49;
+			}
+
+		#xs-deliver
+			{
+				margin-top: 5px;
+				font-size: .7em;
+				letter-spacing: .1em;
+				text-transform: uppercase;
+			}
+
+		.container .jumbotron
+			{
+				margin-top: 30px;
+				padding: 0;
+			}
+
+		#menu-tile, #specials-tile
+			{
+				width: 360px;
+				margin: 0 auto 15px auto;
+			}
+
+		.panel-footer section
+			{
+				margin-bottom: 30px;
+				text-align: center;
+			}
+
+		.panel-footer section:nth-child(3)
+			{
+				margin-bottom: 0;
+			}
+
+		.panel-footer section hr
+			{
+				width: 50%;
+			}
+
+        .menu-item-photo
+            {
+                margin-right: auto;
+            }
+
+        .menu-item-tile .menu-item-price
+            {
+                text-align: center;
+            }
+
+        .menu-item-description
+            {
+                text-align: center;
+            }
+
+	} /*- END OF @media (max-width: 767px) -*/
+
+/* -> SUPER EXTRA SMALL devices <- */
+/*@media (max-width: 479px)
+	{
+		#menu-tile, #specials-tile
+			{
+				width: 280px;
+				margin: 0 auto 15px auto;
+			}
+
+		.navbar-brand h1
+			{
+				padding-top: 5px;
+				font-size: 6vw;
+			}
+
+    .col-xxs-12
+      {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        float: left;
+
+        width: 100%;
+      }
+	}*/
