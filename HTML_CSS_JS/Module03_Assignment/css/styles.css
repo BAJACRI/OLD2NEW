@@ -11,42 +11,61 @@ body
 
 #header-nav
 	{
-		background-color: #8C8C8C;
+		background-color: #999999;
 
 		border: 0;
 		border-radius: 0;
 		border-bottom-color: black;
 		border-bottom-width: 3px;
 		border-bottom-style: solid;
+
+		margin-bottom: 0px;
 	}
 
 .navbar-brand
 	{
-		height: initial;
+		margin-bottom: 15px;
 	}
 
 .navbar-brand h1
 	{
 		color: #000000;
-		/*font-weight: bold;
+		font-weight: bold;
 
 		margin-top: 0px;
-		margin-bottom: 0px;*/
+		margin-bottom: 0px;
 	}
 
 #collapsable-nav
 	{
-		/*background-color: #C2F0C2;*/
+		border-top: 0px;
 	}
 
 #nav-list
 	{
 		text-align: center;
+
+		font-size: 120%;
+		font-weight: bold;
+
+		background-color: #C2F0E7;
+
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
-#nav-list li
+#nav-list a
 	{
-		font-size: 120%;;
+		color: #000000;
+
+		border-width: 3px 3px 0px 3px;
+		border-style: solid;
+		border-color: #000000
+	}
+
+button.navbar-toggle
+	{
+		margin-top: 16px;
 	}
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar
@@ -55,39 +74,54 @@ body
 		border-style: solid;
 		border-color: #000000;
 	}
-
-button.navbar-toggle
-	{
-		vertical-align: middle;
-	}
 /* END OF header */
 
-
-/*#main-content
+/* Main Content */
+.page-header
 	{
-		text-align: center;
+		padding-bottom: 0px;
+		
+		border-bottom: 0px;
+
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 
-#main-content #title
+.page-header h2
 	{
-		font-size: 130%;
-	}
-
-#main-content span
-	{
-		font-size: 115%;
 		font-weight: bold;
 	}
 
-#main-content p
+#main-content div div
 	{
-		font-size: 100%;
-		text-align: justify;
+		border: 1px;
+		border-style: solid;
+		border-color: #000000;
+
+		margin-top: 10px;
+		
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+
+		background-color: #D9D9D9;
 	}
 
-#main-content .row
+#main-content div div h3
 	{
-		border: 2px;
-		border-color: blue;
-		border-style: solid;*/
+		text-align: center;
+
+		margin-top: 5px;
 	}
+
+#main-content a
+	{
+		color: black;
+		font-weight: bold;
+	}
+
+#main-content div div p
+	{
+		text-align: justify;
+	}
+/* END OF Main Content */
