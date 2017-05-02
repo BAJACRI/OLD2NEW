@@ -15,6 +15,79 @@ body
 
 		border: 0;
 		border-radius: 0;
+		border-bottom-color: black;
+		border-bottom-width: 3px;
+		border-bottom-style: solid;
 	}
 
+.navbar-brand
+	{
+		height: initial;
+	}
+
+.navbar-brand h1
+	{
+		color: #000000;
+		/*font-weight: bold;
+
+		margin-top: 0px;
+		margin-bottom: 0px;*/
+	}
+
+#collapsable-nav
+	{
+		/*background-color: #C2F0C2;*/
+	}
+
+#nav-list
+	{
+		text-align: center;
+	}
+
+#nav-list li
+	{
+		font-size: 120%;;
+	}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+	{
+		border: 1px;
+		border-style: solid;
+		border-color: #000000;
+	}
+
+button.navbar-toggle
+	{
+		vertical-align: middle;
+	}
 /* END OF header */
+
+
+/*#main-content
+	{
+		text-align: center;
+	}
+
+#main-content #title
+	{
+		font-size: 130%;
+	}
+
+#main-content span
+	{
+		font-size: 115%;
+		font-weight: bold;
+	}
+
+#main-content p
+	{
+		font-size: 100%;
+		text-align: justify;
+	}
+
+#main-content .row
+	{
+		border: 2px;
+		border-color: blue;
+		border-style: solid;*/
+	}
