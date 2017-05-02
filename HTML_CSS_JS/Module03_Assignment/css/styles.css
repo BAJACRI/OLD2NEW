@@ -63,6 +63,11 @@ body
 		border-color: #000000
 	}
 
+#nav-list a:hover
+	{
+		background-color: yellow;
+	}
+
 button.navbar-toggle
 	{
 		margin-top: 16px;
@@ -118,6 +123,11 @@ button.navbar-toggle
 	{
 		color: black;
 		font-weight: bold;
+	}
+
+#main-content a:hover
+	{
+		text-decoration: none;
 	}
 
 #main-content div div p
